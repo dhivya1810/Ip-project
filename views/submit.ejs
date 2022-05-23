@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+<nav >
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Bloggram</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Story</h1>
+    <p class="secret-text">Tell us your Story!</p>
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secret" placeholder="What's your Story today?">
+      </div>
+      <button type="Save" class="btn btn-dark">Save</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>

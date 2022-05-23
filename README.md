@@ -1,1 +1,2 @@
-# Ip-project
+# IPProj
+Internet Programming project
